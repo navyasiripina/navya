@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int x,y,i,p=1;
+	printf("enter x and y values : ");
+	scanf("%d%d",&x,&y);
+	for(i=1;i<=y;i++)
+	{
+		p=p*x;
+	}
+	printf("\n The power = %d",p);
+	return 0;
+}
